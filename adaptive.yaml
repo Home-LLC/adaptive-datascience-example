@@ -6,8 +6,8 @@ icon: "https://demo.adaptivecontent.online/inverse.gif"
 memory: "500Mi"
 cpu: "500m"
 
-schedule: "*/15 * * * *"
+schedule: "*/5 * * * *"
 
 env:
-  BUCKET: "asd"
-  OBJECT: "asd2"
+  BUCKET: "hl-data-backup"
+  OBJECT: "National Level Data/Sid Files/20-Year Treasury Constant Maturity Rate.csv"
