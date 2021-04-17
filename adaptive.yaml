@@ -1,0 +1,13 @@
+type: Job
+description: "homellcs task descs"
+home: "https://adaptive.live"
+icon: "https://demo.adaptivecontent.online/inverse.gif"
+
+memory: "500Mi"
+cpu: "500m"
+
+schedule: "*/15 * * * *"
+
+env:
+  BUCKET: "asd"
+  OBJECT: "asd2"
